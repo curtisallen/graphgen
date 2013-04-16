@@ -1,1 +1,6 @@
 target/
+src/main/webapp/static/.sass-cache
+src/main/webapp/static/.tmp
+src/main/webapp/static/dist
+src/main/webapp/static/node_modules
+nbactions.xml

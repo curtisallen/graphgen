@@ -1,0 +1,23 @@
+<script type="text/javascript">
+  // $(function() {
+  //       $("#myinput").suggest({filter:'(all type:/film/actor)', key: 'AIzaSyBQcaeTrGRDWOIbWa3QyNi33jTR2aSM-pw'})
+  //         .bind("fb-select", function(e, data) {
+  //           // alert(data.name + ", " + data.id);
+  //           $.ajax('/service/graphgen', {
+  //             data: {"id": data.id}
+  //           });
+  //         });
+  //     });
+</script>
+<div class="hero-unit">
+  <h1 class="lead">Lets Create a Graph</h1>
+</div>
+
+<label ng-init="init()" for="myinput">
+  Type famous person name
+  <input freebase-widget type="text" id="myinput"/>
+</label>
+
+<!-- <button type="button" class="btn btn-primary" ng-click="getGraph()">Graph It!</button> -->
+<button type="button" class="btn btn-danger" ng-click="deleteGraph()">Clear</button>
+<graph-view val="data"></graph-view>

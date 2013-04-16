@@ -1,0 +1,10 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+.node {
+	stroke: #fff;
+	stroke-width: 1.5px;
+}
+
+.link {
+	stroke: #999;
+	stroke-opacity: .6;
+}
